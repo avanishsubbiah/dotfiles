@@ -68,6 +68,7 @@ window#waybar {
 #custom-expand,
 #custom-cycle_wall,
 #custom-ss,
+#custom-pipewire,
 #custom-dynamic_pill,
 #mpd {
     padding: 0 10px;
@@ -143,6 +144,10 @@ window#waybar {
     font-weight:  bolder;
     padding: 5px;
     border-radius: 15px;
+}
+
+#custom-pipewire{
+    color: #90b1b1;
 }
 
 

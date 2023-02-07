@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pw-volume mute toggle; pkill -RTMIN+8 waybar
