@@ -1,0 +1,5 @@
+#!/bin/bash
+
+VOL=`pw-volume status`
+echo $VOL
+echo `grep -oP '(?<="customfield_11500": ")[^"]*`

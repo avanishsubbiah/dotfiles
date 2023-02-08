@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+config=$HOME/.config/hypr
+scripts=$config/scripts
+
+$scripts/launch_waybar &
+sleep 15
+killall waybar
