@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if pactl get-source-mute 0 | grep no;
+then
+    xbacklight -ctrl platform::micmute -set 0
+else
+    xbacklight -ctrl platform::micmute -set 100
+fi
