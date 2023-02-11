@@ -11,9 +11,6 @@ dunst &
 $scripts/show_waybar &
 $scripts/tools/dynamic &
 
-# Update Mic Light
-$scripts/update_mic_light &
-
 # wallpaper
 # $scripts/wall $config/wallpapers/cloud.png &
 
@@ -27,3 +24,6 @@ dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 # Delayed wallpaper
 sleep 1
 $scripts/wall $config/wallpapers/cloud.png &
+
+# Update Mic Light
+$scripts/update_mic_light &
