@@ -37,7 +37,17 @@ do
             fi
             ;;
         # "media")
-            
+        "rand")
+            index=$(cat $TEMP)
+            index=$(shuf -i 0-${#files[@]} -n 1)
+            echo $index
+            if [ $index -ge ${#files[@]} ]; then
+                index=0
+            fi
+            echo $index > $TEMP
+            $scripts/wall "${files[$index]}"
+            exit 0
+            ;;
         *)
             if $scripts/toolbar_state; then
                 echo "     "
