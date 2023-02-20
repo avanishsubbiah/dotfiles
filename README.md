@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/77581181/191730195-56fa4616-59ac-4dae-
 ## Arch
 dependencies
 
-Avani's added deps: `pw-control xbacklight(from acpilight) nm-connection-editor bpytop pavucontrol`
+Avani's added deps: `cliphist pw-control xbacklight(from acpilight) nm-connection-editor bpytop pavucontrol`
 
 ```
 hyprland-git waybar-hyprland-git cava waybar-mpris-git python rustup kitty fish wofi xdg-desktop-portal-wlr tty-clock-git swaylockd grim slurp pokemon-colorscripts-git starship jq dunst wl-clipboard swaylock-effects-git
