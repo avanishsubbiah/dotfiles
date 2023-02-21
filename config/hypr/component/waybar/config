@@ -161,7 +161,8 @@
         "format-plugged": "",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "Capacity: {capacity}%, {time} left"
     },
     "battery#bat2": {
         "bat": "BAT2"
