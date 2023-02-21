@@ -23,7 +23,7 @@ dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
 # Delayed wallpaper
 sleep 1
-$scripts/tools/expand cycle
+$scripts/tools/expand rand &
 # $scripts/wall $config/wallpapers/cloud.png &
 
 
