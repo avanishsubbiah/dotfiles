@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+config=$HOME/.config/hypr
+scripts=$config/scripts
+
+if pgrep -x "waybar" > /dev/null
+then
+    killall waybar
+else
+    $scripts/launch_waybar &
+fi
