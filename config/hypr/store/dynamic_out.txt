@@ -1,1 +1,1 @@
-{"class": "none", "text": ""}
+{"class": "playing", "text": "ThePrimeagen - Why RUST ENUMS are just BETTER ", "tooltip": "Why RUST ENUMS are just BETTER\nby ThePrimeagen\n(firefox.instance1952)"}
